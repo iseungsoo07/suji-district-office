@@ -1,0 +1,256 @@
+.flex-column {
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    height: 600px;
+    background: url("https://www.sujigu.go.kr/assets/img/main/mkvWrapBg.png");
+    padding: 50px 120px;
+}
+
+.wrapper .wrapper__main {
+    display: flex;
+    margin-bottom: 50px;
+    width: 1280px;
+}
+
+.wrapper .wrapper__main .wrapper__information {
+    padding: 20px;
+    border: 1px solid #1b75ba;
+    width: 320px;
+    height: 350px;
+    background: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.wrapper .wrapper__main .wrapper__information .information_icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.wrapper .wrapper__main .wrapper__information .information_icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+}
+
+.wrapper .wrapper__main .wrapper__information .information_icon span {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.wrapper .wrapper__main .wrapper__information .info {
+    font-size: 24px;
+    border-bottom: 1px solid #1b75ba;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.wrapper__main .wrapper__information .information_icons .info_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #2a88cf;
+    color: white;
+    font-size: 32px;
+}
+
+.wrapper__main .wrapper__information .information_icons .info_icons:hover {
+    background: white;
+    color: #2a88cf;
+    border: 1px solid #2a88cf;
+}
+
+.wrapper__main .wrapper__slide-banner {
+    width: 660px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.wrapper__main .wrapper__greetings {
+    background: #074093;
+    width: 280px;
+    height: 210px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.wrapper__main .wrapper__greetings .greetings {
+    padding: 30px 15px;
+}
+
+.wrapper__main .wrapper__greetings .greetings span {
+    display: flex;
+    color: white;
+    margin: 10px;
+}
+
+.wrapper__main .wrapper__greetings .greetings span.b {
+    font-size: 24px;
+    margin: 0;
+}
+
+.wrapper__main .wrapper__greetings .greetings span.sub {
+    position: relative;
+    margin: 0;
+    bottom: -10px;
+}
+
+.wrapper__greetings .greetings__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    background: #395c87;
+    position: absolute;
+    bottom: 0;
+}
+
+.wrapper__greetings .greetings__info a {
+    color: white;
+    font-size: 15px;
+}
+
+.wrapper__greetings .greetings__info a::after {
+    content: "|";
+    opacity: 0.6;
+    padding: 10px;
+}
+
+.wrapper__greetings .greetings__info li:last-child a::after {
+    content: none;
+}
+
+.wrapper__greetings .greetings__info span {
+    color: white;
+}
+
+.wrapper__main .wrapper__passport {
+    width: 280px;
+    height: 130px;
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px;
+}
+
+.wrapper__main .wrapper__passport a {
+    margin-right: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.wrapper__main .wrapper__passport button {
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.wrapper__main .wrapper__passport button:hover {
+    background: #074093;
+    color: white;
+}
+
+.wrapper__main .wrapper__passport .passport__waitings {
+    display: flex;
+    margin-top: 10px;
+}
+
+.wrapper__main .wrapper__passport .gray_box {
+    border-radius: 5px;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 65px;
+}
+
+.wrapper__main .wrapper__passport .passport__waitings div:last-child {
+    margin-left: 10px;
+}
+
+.wrapper__main .wrapper__passport .gray_box span {
+    font-size: 14px;
+}
+
+.wrapper__main .wrapper__passport .gray_box .waitings_num {
+    font-size: 22px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.wrapper .frequently_visited {
+    display: flex;
+    width: 1280px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frequently_visited div {
+    margin-right: 20px;
+}
+
+.frequently_visited .text_empha {
+    font-size: 28px;
+    font-weight: bold;
+    color: #00388d;
+}
+
+.frequently_visited > div > span {
+    font-size: 26px;
+}
+
+.frequently_visited .frequently_visited__icon {
+    width: 90px;
+    height: 90px;
+    background: white;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.frequently_visited .fv_icon01 {
+    background: #fff url("../img/ico_bannerFive01.png") no-repeat;
+}
+
+.frequently_visited .fv_icon02 {
+    background: #fff url("../img/ico_bannerFive02.png") no-repeat;
+}
+
+.frequently_visited .fv_icon03 {
+    background: #fff url("../img/ico_bannerFive06.png") no-repeat;
+}
+
+.frequently_visited .fv_icon04 {
+    background: #fff url("../img/ico_bannerFive03.png") no-repeat;
+}
+
+.frequently_visited .fv_icon05 {
+    background: #fff url("../img/ico_bannerFive04.png") no-repeat;
+}
+
+.frequently_visited .fv_icon06 {
+    background: #fff url("../img/ico_bannerFive05.png") no-repeat;
+}
+
+.frequently_visited .frequently_visited__text {
+    font-size: 18px;
+}
