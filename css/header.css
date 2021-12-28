@@ -90,3 +90,13 @@
     border-bottom: 1px solid #4d6d94;
     font-size: 19px;
 }
+
+.navbar a {
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: #395c88;
+    font-weight: bold;
+    border-bottom: 4px solid #395c88;
+}
